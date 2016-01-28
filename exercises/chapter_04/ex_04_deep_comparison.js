@@ -4,7 +4,7 @@ function deepEqual(elementA, elementB) {
   if (typeof elementA == "object" && elementA != null && typeof elementB == "object" && elementB != null) {
     var propertiesInElementA = 0, propertiesInElementB = 0;
     for (var propertyName in elementA)
-      propertiesInElementA++
+      propertiesInElementA++;
     for (var propertyName in elementB)
       propertiesInElementB++;
     for (var propertyName in elementA) {
